@@ -1,0 +1,23 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 16
+  pre_build:
+    commands:
+      - aws s3 cp s3://elasticbeanstalk-us-west-2-848344423788/environment.js src/environment.js
+      - npm install --legacy-peer-deps
+      - npm install express --save path --legacy-peer-deps
+  build:
+    commands:
+      - npm run build
+  post_build:
+    commands:
+      - echo post build state
+      
+artifacts:
+  files:
+    - '**/*'
+    
+
+  

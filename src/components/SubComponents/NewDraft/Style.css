@@ -1,0 +1,31 @@
+.scriptBtn {
+    width: 130px;
+    font-weight: bold;
+    background-color: #0a6ed1;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.on_hover:hover{
+    background-color: gray !important;
+}
+.scriptBtnDis {
+    text-decoration: none;
+    width: 130px;
+    font-weight: bold;
+    background-color: #dfe3e8;
+    color: #fff;
+    border-radius: 8px;
+}
+.grayText {
+    color: gray;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.yellowText {
+    color: #e7ae3c;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 8px;
+}

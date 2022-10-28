@@ -1,0 +1,16 @@
+.card-wrapper {
+    width: 310px;
+    border-radius: 6px;
+    padding: 10px;
+    margin-left: 25px;
+    max-height: 200px;
+    overflow: auto;
+}
+.comment-input {
+    width: 100%;
+    font-size: 14px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+}

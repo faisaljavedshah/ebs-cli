@@ -1,0 +1,481 @@
+@import "bootstrap/dist/css/bootstrap.css";
+/* @import url("https://fonts.googleapis.com/css?family=Nunito"); */
+
+
+.top_pad {
+    margin-top: 40px;
+}
+.btn{
+    font-size: 14px;
+    padding: 6px 12px;
+}
+.firstDiv {
+    height: 42px;
+    width: 42px;
+    background-color: #0a6ed1;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.inner_text {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+.inner_text_O {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 7px;
+}
+.pName {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+.pName1 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+.pName2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+.pName3 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+.top_input {
+    margin-top: 5px;
+}
+.cus_radio {
+    margin-top: 25px;
+    margin-left: 20px !important;
+}
+.InputFields {
+    width: 100% !important;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.btn_section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.btn_section_next {
+    padding-bottom: 40px;
+}
+.cus_btn {
+    border: 1px solid #0a6ed1;
+    color: #0a6ed1;
+}
+.cuss_btn {
+    border: 1px solid #0a6ed1;
+    color: #0a6ed1;
+    margin-right: 15px;
+}
+.custom-radio {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.left_from {
+    margin-left: 20px;
+    padding-left: 20px;
+    outline: none;
+    padding: 15px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 500;
+    width: 552px;
+}
+
+.animation_text {
+    border-right: solid 3px #000;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+
+/* Animation */
+.animation_text {
+    animation: animated-text 1.5s steps(29, end) 1s 1 normal both,
+        animated-cursor 600ms steps(29, end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+    to {
+        width: 150px;
+    }
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor {
+    from {
+        border-right-color: #000;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+/* react state */
+
+/* input[type="text"]:enabled {
+  background: #ffff00;
+} */
+
+input[type="text"]:disabled {
+    background: #dddddd;
+}
+
+#state1 {
+    display: block;
+}
+
+/* Loader */
+
+#loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(26 108 97 / 56%);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+    float: right;
+}
+
+@keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+#section1dis {
+    display: block;
+}
+
+#state2 {
+    /* display: none; */
+}
+#regenerate {
+    display: block;
+}
+
+#section2dis {
+    display: block;
+}
+#regenerate2 {
+    /* display: none; */
+}
+#demo3dis {
+    display: block;
+}
+#next1None {
+    display: block;
+}
+#next2None {
+    display: block;
+}
+#next3None {
+    display: block;
+}
+#lastDivNone {
+    display: block;
+}
+#gen1disN {
+    display: block;
+}
+#disN123 {
+    display: block;
+}
+#dis0988 {
+    display: block;
+}
+#dis0988_11 {
+    display: block;
+}
+#next3NoneFinish {
+    display: none;
+}
+.right_side {
+    background-color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    /* height: 100%; */
+    padding: 8px;
+    overflow: hidden;
+    padding-left: 16px;
+}
+
+#demo4Div {
+    /* display: none; */
+}
+#DEMO4OP {
+    display: block;
+}
+#next3None111 {
+    display: block;
+}
+#FOROutro {
+    display: block;
+}
+#outro1Dis {
+    display: none;
+}
+#outNon2 {
+    display: block;
+}
+#outNon1 {
+    display: block;
+}
+.autosize {
+    resize: none;
+    overflow: hidden;
+}
+.pdfhead {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.newpd {
+    display: flex;
+    justify-content: flex-end;
+}
+pre {
+    display: block;
+    font-size: 87.5%;
+    color: #212529;
+    white-space: pre-wrap;
+    padding: 15px;
+}
+.circle {
+    margin-left: 10;
+    width: 20;
+    height: 20;
+    border-radius: 20;
+    border: "1px solid blue";
+}
+.body-loader {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: #f6fafc;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 99999999;
+    margin-top: 76px;
+}
+#reGenIntro {
+    display: block;
+}
+#intro1ReGen {
+    display: none;
+}
+.center-screen {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid gray;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    position: absolute;
+    width: 50%;
+    right: 64px;
+    top: 1100px;
+    overflow: scroll;
+    overflow: auto;
+}
+.center-screen2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid gray;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    position: absolute;
+    width: 50%;
+    right: 64px;
+    top: 1650px;
+    overflow: scroll;
+    overflow: auto;
+}
+.center-screen3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid gray;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    position: absolute;
+    width: 50%;
+    right: 64px;
+    top: 2100px;
+    overflow: scroll;
+    overflow: auto;
+}
+.center-screen4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid gray;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    position: absolute;
+    width: 50%;
+    right: 64px;
+    top: 2600px;
+    overflow: scroll;
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.check {
+    background-color: #fff;
+    border-radius: 5px;
+}
+.selected_text {
+    font-size: 15px;
+    padding-left: 20px;
+    color: gray;
+    font-weight: 600;
+    font-family: revert;
+}
+.selected_text2 {
+    font-size: 15px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.selected_text3 {
+    font-size: 15px;
+    padding-left: 60px;
+    color: gray;
+    font-weight: 600;
+    font-family: revert;
+}
+.selected_text4 {
+    font-size: 15px;
+    padding-left: 60px;
+    cursor: pointer;
+}
+.selected_text5 {
+    font-size: 15px;
+    padding-left: 80px;
+    color: gray;
+    font-weight: 600;
+    font-family: revert;
+}
+.selected_text6 {
+    font-size: 15px;
+    padding-left: 80px;
+    cursor: pointer;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #2196f3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

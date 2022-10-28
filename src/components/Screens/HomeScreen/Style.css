@@ -1,0 +1,28 @@
+.pageUIColor {
+}
+.for_bg {
+    background-image: url("../../assets/home_bg.png");
+    background-position: center;
+    background-size: cover;
+}
+.fade {
+    /* background-color: #0984ff; */
+    /* opacity: 70% !important; */
+}
+.modal-backdrop {
+    opacity: 0.5 !important;
+}
+.modal-backdrop.show {
+    opacity: 0.8;
+}
+.view_set{
+    position: absolute;
+    margin-left: -27px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.input_single{
+    display: flex;
+    flex-direction: row;
+ 
+}
